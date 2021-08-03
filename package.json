@@ -2,8 +2,9 @@
   "name": "miniAPIExpress.js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/servidor.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/hfvmarques/miniAPIComExpress.js#readme",
   "dependencies": {
     "express": "4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.11"
   }
 }
